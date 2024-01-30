@@ -1,4 +1,4 @@
-CXX = g++
+CXX*=!g++
 LIBS = -lGL -lglfw
 INCLUDES = -Iinclude
 CFLAGS = -Wall -O2 -std=c++11 -pipe -DDEBUG
@@ -29,3 +29,4 @@ example: $(OBJS)
 
 clean:
 	rm -v $(OBJS) $(EXE_NAME)
+ 
